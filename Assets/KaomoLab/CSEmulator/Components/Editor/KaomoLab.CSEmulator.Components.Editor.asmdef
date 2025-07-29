@@ -1,0 +1,21 @@
+{
+    "name": "KaomoLab.CSEmulator.Components.Editor",
+    "rootNamespace": "",
+    "references": [
+        "ClusterVR.CreatorKit.Editor.Custom",
+        "KaomoLab.CSEmulator.Components",
+        "KaomoLab.CSEmulator.Editor",
+        "KaomoLab.CSEmulator"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
