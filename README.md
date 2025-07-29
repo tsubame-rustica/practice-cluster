@@ -3,6 +3,7 @@
 ## 使用アセット
 - Cluster Creator Kit(CCK)
 - Skybox Series Free
+- CSEmulator
 
 ## 各種設定方法
 
@@ -43,3 +44,22 @@
 - https://creator.cluster.mu/2021/08/02/skybox/
 
 ---
+
+### CSEmulator
+- #### UniVRMのインストール
+    1. https://github.com/vrm-c/UniVRM/releases/tag/v0.61.1 より、.unitypackageファイルをインストールする。
+    
+    2. 「Assets」→「Import Package」→「Custom Package」でダウンロードしたファイルを開く
+
+    3. チェックボックスを変更せずに「import」
+
+- #### PostProccessing
+    1. 「Window」→「Package Manager」をクリック
+
+    2. 左上の「Packages: 〇〇」をクリックして「Unity Registry」を選択
+
+    3. 右上の検索欄に「post」と入力
+
+    4. 「Post Proccessing」を選択し、「install」をクリック
+
+https://booth.pm/ja/items/5111235 より、
