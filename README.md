@@ -62,4 +62,43 @@
 
     4. 「Post Proccessing」を選択し、「install」をクリック
 
-https://booth.pm/ja/items/5111235 より、
+    5. https://booth.pm/ja/items/5111235 より、zipファイルをインストールする
+
+    6. zipファイルを展開して.unitypackageファイルをimportする（importの仕方はUniVRMと同じ）
+
+
+参考文献
+- https://booth.pm/ja/items/5111235
+- https://creator.cluster.mu/2020/04/01/howto-postprocessing/
+
+
+## パーティクル
+- Snow Particle
+
+### Snow Particle
+参考文献
+- https://creator.cluster.mu/2025/02/12/particle_snow/
+
+---
+
+## スポットライトシェーダー
+cluster環境向けに最適化されたスポットライト表現用のシェーダー
+
+### シェーダーの種類
+1. **SimpleSpotLight** - 軽量でシンプルなスポットライト
+2. **SpotLight** - 標準的なスポットライト（距離減衰付き）
+3. **VolumetricSpotLight** - ボリューメトリック効果付きスポットライト
+
+### 使用方法
+1. マテリアルを作成し、上記のシェーダーを選択
+2. QuadやPlaneにマテリアルを適用
+3. パラメータを調整してライトの見た目を設定
+
+### パラメータ説明
+- **Light Color**: ライトの色
+- **Intensity/Brightness**: ライトの明るさ
+- **Radius**: ライトの広がり
+- **Edge Softness**: エッジの柔らかさ
+- **Distance Attenuation**: 距離による減衰
+
+---
